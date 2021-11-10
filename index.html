@@ -97,7 +97,7 @@
     <!--about-->
         <section class="bg-info p-5">
             <div class="h2 text-center">ABOUT</div>
-            <div class="row fs-3 px-5">
+            <div class="row fs-4 px-5">
                 <div class="col-3"></div>
                 <div class="col-3">
                     <p>Nulla bibendum nunc a turpis sagittis, nec ornare ligula volutpat. Sed mattis malesuada facilisis. Phasellus leo odio, varius eget purus et, tincidunt lacinia lectus. Morbi ut nulla sem.</p>
@@ -112,8 +112,33 @@
             </div>
         </section>
     <!--contact me form-->
-        <section id="contact">
-
+        <section id="contact" class="mx-5 p-5">
+            <div class="h2 text-center">CONTACT ME</div>
+            <form action="#" class="row fs-5 gy-2">
+                <div class="col-6">
+                    <label for="first-name" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="first-name" placeholder="Enter your first name..." required>
+                </div>
+                <div class="col-6">
+                    <label for="last-name" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="last-name" required placeholder="Enter you last name...">
+                </div>
+                <div class="col-6">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" required placeholder="name@example.com">
+                </div>
+                <div class="col-6">
+                    <label for="phone" class="form-label">Phone number</label>
+                    <input type="number" class="form-control" id="phone" required placeholder="(123) 456-7890">
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Enter you message here..."></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-info btn-lg"><i class="bi bi-send"></i> Send</button>
+                </div>   
+            </form>
         </section>
     </main> 
     <!--footer-->
